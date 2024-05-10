@@ -1,21 +1,21 @@
-Tag Name: What is a Finite State Machine (FSM)
-Tag Command: fsm
-Tag Content:
+### Tag Name: What is a Finite State Machine (FSM)
+#### Tag Command: fsm
+##### Tag Content:
 A Finite State Machine (FSM) is a computation model that's used to design systems with a finite number (limited amount) of states.
 At any given moment, the system can be in one of these states and can switch between states based on certain conditions or events, known as transitions.
 The benefit of using FSMs is to clearly separate state behaviors making systems easier to manage and understand.
 
-Use case:
+##### Use case:
 Consider a NPC system with 3 actions: Idle, Attacking, Fleeing.
 
-In this case:
+##### In this case:
 
-States:
+###### States:
 * Idle: NPC stands still.
 * Attacking: NPC follows and attacks.
 * Fleeing: NPC runs away.
 
-Transitions:
+###### Transitions:
 * From Idle -> Attacking: Occurs when a player comes within a detectable range.
 * From Attacking -> Fleeing: When NPC's health falls below a certain threshold.
 * From Fleeing -> Idle: When the npc has escaped to a safe distance.
