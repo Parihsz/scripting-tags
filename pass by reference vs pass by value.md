@@ -9,17 +9,17 @@ In Luau, variables can be passed by value or by reference depending on their dat
 
 Indirect Change is when you are changing the variable and not the actual value, for example:
 ```lua
-local coin = player.leaderstats.Coin.Value
-print(coin) --> 0
-coin = 5
-print(coin) --> 5
-print(player.leaderstats.Coin.Value) --> 0
+local coins = player.leaderstats.Coins.Value
+print(coins) --> 0
+coins = 5
+print(coins) --> 5
+print(player.leaderstats.Coins.Value) --> 0
 ```
 In this case, you are overwriting the variable, not changing the value.
 
 The proper way to do it is:
 ```lua
-local coin = player.leaderstats.Coin
-coin.Value = 5
-print(player.leaderstats.Coin.Value) --> 5
+local coins = player.leaderstats.Coins
+coins.Value = 5
+print(player.leaderstats.Coins.Value) --> 5
 ```
