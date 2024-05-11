@@ -22,3 +22,4 @@ The proper way to do it is:
 local coin = player.leaderstats.Coin
 coin.Value = 5
 print(player.leaderstats.Coin.Value) --> 5
+```
