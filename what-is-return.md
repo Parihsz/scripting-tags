@@ -17,3 +17,5 @@ end
 local sum = add(5, 3)
 print(sum)  -- Outputs: 8
 ```
+
+Detailed Explanation [here](https://discord.com/channels/211228845771063296/1138164798652166264/1141290089004138556)
