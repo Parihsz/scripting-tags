@@ -4,7 +4,7 @@
 Picture a waiter asking to take down your order. The waiter's job is to relay that information to the kitchen who will produce the meal and have it brought to your table. 
 
 ```lua
--- You tell the waiter what you want is like calling a function with specific instructions.
+-- You tell the waiter what you want by calling the function with specific instructions.
 local function add(x, y)
   -- 'add' receives your 'order' (x and y).
 
@@ -12,8 +12,6 @@ local function add(x, y)
   return x + y -- returns the sum of x and y 
 end
 
--- Using the Result
--- You use your meal by storing it in a variable:
 local sum = add(5, 3)
 print(sum)  -- Outputs: 8
 ```
